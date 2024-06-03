@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Deploy JSON Server to Vercel",
   "main": "api/server.js",
+  "type":"module",
   "dependencies": {
     "cors": "^2.8.5",
     "json-server": "^1.0.0-beta.0"

@@ -1,4 +1,4 @@
-const jsonServer = require('json-server')
+import jsonServer from 'json-server'
 // const cors = require('cors')
 // const path = require('path')
 
@@ -23,4 +23,4 @@ server.listen(PORT, () => {
 })
 
 // Export the Server API
-module.exports = server
+export default server
