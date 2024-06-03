@@ -2,7 +2,7 @@
   "name": "json-server-vercel",
   "version": "1.0.0",
   "description": "Deploy JSON Server to Vercel",
-  "main": "index.js",
+  "main": "api/server.js",
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
@@ -14,5 +14,18 @@
   "scripts": {
     "start": "node api/server.js",
     "dev": "nodemon api/server.js"
-  }
+  },
+  "author": "GadDev",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GadDev/mock-bank-data.git"
+  },
+  "keywords": [
+    "restful",
+    "rest",
+    "api",
+    "vercel",
+    "json",
+    "server"
+  ]
 }
